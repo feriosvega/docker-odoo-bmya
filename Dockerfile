@@ -1,8 +1,5 @@
-FROM bmya/odoo:latest
-MAINTAINER Blanco Martín & Asociados <daniel@blancomartin.cl>
-# based on https://github.com/ingadhoc/docker-odoo-adhoc
-# with custom references
-# install some dependencies
+FROM nelsonramirezs/odoo8:latest
+MAINTAINER Nelson Ramirez <info@konos.cl>
 USER root
 
 # Generate locale (es_AR for right odoo es_AR language config, and C.UTF-8 for postgres and general locale data)
